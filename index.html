@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>jVectorMap demo</title>
+  <link rel="stylesheet" href="style/jquery-jvectormap-2.0.4.css" type="text/css" media="screen"/>
+  <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="script/jquery-jvectormap-2.0.4.min.js"></script>
+  <script src="script/jquery-jvectormap-world-mill.js"></script>
+</head>
+<body style="margin: 0; padding: 1vh 1vw;">
+  <div id="world-map" style="margin: 0; padding: 0;width: 98vw; height: 98vh"></div>
+  <script>
+    $(function(){
+        var map = new jvm.Map({
+          container: $('#world-map'),
+          map: 'world_mill',
+          backgroundColor: '#6bb9e6',
+          regionStyle: {
+              initial: {
+                  fill: '#e96421',
+              }
+          },
+          markerStyle: {
+              initial: {
+                  fill: '#fff',
+                  stroke: '#000',
+                  "stroke-width": 3
+              },
+              hover: {
+                  "stroke-width": 3
+              }
+          }
+      });
+      var nodes_url = "http://contentapi.theodi.org/with_tag.json?type=node"
+      $.getJSON(nodes_url, function(nodes) {
+          $.each(nodes.results, function(i, node) {
+              map.addMarker(node.slug, {name: node.title, latLng: node.details.location})
+          })
+      });
+    });
+  </script>
+</body>
+</html>
