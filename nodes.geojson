@@ -1,0 +1,278 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.267119,
+          22.727078
+        ]
+      },
+      "properties": {
+        "name": "Riyadh"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.494547,
+          34.703505
+        ]
+      },
+      "properties": {
+        "name": "Osaka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.7167,
+          37.9667
+        ]
+      },
+      "properties": {
+        "name": "Athens "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.5333,
+          50.7167
+        ]
+      },
+      "properties": {
+        "name": "Devon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.15114,
+          46.06713
+        ]
+      },
+      "properties": {
+        "name": "Trento"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9667,
+          57.7
+        ]
+      },
+      "properties": {
+        "name": "Gothenburg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.93084,
+          54.597126
+        ]
+      },
+      "properties": {
+        "name": "Belfast"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.061874,
+          37.50393
+        ]
+      },
+      "properties": {
+        "name": "Seoul"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3508,
+          48.8567
+        ]
+      },
+      "properties": {
+        "name": "Paris"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.636339,
+          55.762604
+        ]
+      },
+      "properties": {
+        "name": "Moscow"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3817,
+          -34.6033
+        ]
+      },
+      "properties": {
+        "name": "Buenos Aires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4484478,
+          -22.9112728
+        ]
+      },
+      "properties": {
+        "name": "Rio de Janeiro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.02836,
+          -27.46272
+        ]
+      },
+      "properties": {
+        "name": "Queensland"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.38318,
+          43.65323
+        ]
+      },
+      "properties": {
+        "name": "Toronto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6278,
+          41.8819
+        ]
+      },
+      "properties": {
+        "name": "Chicago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5492,
+          53.7997
+        ]
+      },
+      "properties": {
+        "name": "Leeds"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.1563,
+          25.09781
+        ]
+      },
+      "properties": {
+        "name": "Dubai"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.397282,
+          50.9009
+        ]
+      },
+      "properties": {
+        "name": "Hampshire"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.01748,
+          30.08199
+        ]
+      },
+      "properties": {
+        "name": "Cairo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.58348,
+          51.43873
+        ]
+      },
+      "properties": {
+        "name": "Bristol"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.474547,
+          53.380308
+        ]
+      },
+      "properties": {
+        "name": "Sheffield"
+      }
+    }
+  ]
+}
